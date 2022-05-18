@@ -12,10 +12,25 @@ code {
     monospace;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.inner-app {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: black;
+  height: 45px;
+  align-items: center;
 }
 .navbar-icon {
   padding-left: 15px;
