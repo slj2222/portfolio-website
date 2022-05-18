@@ -34,7 +34,7 @@ code {
 }
 .navbar-icon {
   padding-left: 15px;
-  
+  color: white;
 }
 
 .bio-detail {
@@ -102,4 +102,9 @@ img {
   align-items: center;
   align-content: center;
   flex-wrap: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
