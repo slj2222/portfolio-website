@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
+      <div className="inner-app">
       <Header />
       <Router>
         <Navbar />
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact" element={ <Contact /> }/>  
           </Routes>
         </Router>
+        </div>
     </div>
   );
 }
