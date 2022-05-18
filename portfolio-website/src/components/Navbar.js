@@ -19,6 +19,11 @@ export default function Navbar() {
                     Projects
                 </div>
             </Link>
+            <Link to="/blogs">
+                <div className="navbar-icon">
+                    Blog Posts
+                </div>
+            </Link>
             <Link to="/contact">
                 <div className="navbar-icon">
                     Contact Me
