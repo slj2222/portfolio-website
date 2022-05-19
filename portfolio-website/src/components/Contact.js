@@ -5,7 +5,7 @@ import dev from "../dev.png"
 
 export default function Contact() {
     return (
-        <div>
+        <div className="contact-container">
             <h2> Contact Information</h2>
             <div>
             <div className="contact-detail">

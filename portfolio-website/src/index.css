@@ -35,6 +35,7 @@ code {
   flex-wrap: nowrap;
   padding-left: 25px;
   padding-right: 25px;
+  justify-content: center;
 }
 
 .bio-image {
@@ -54,6 +55,7 @@ code {
   justify-content: center;
   align-items: center;
   padding-top: 25px;
+  max-width: 65%;
 }
 
 .bio-detail {
@@ -141,6 +143,10 @@ h5 {
 .info {
   padding-left: 30px;
 }
+.contact-container {
+  padding-top: 25px;
+}
+
 .contact-detail {
   display: flex;
   flex-direction: row;
@@ -156,6 +162,8 @@ h5 {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .blog-card {
