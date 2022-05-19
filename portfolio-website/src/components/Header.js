@@ -4,7 +4,7 @@ import React from "react"
 export default function Header() {
     return (
         <div className="header">
-            <img src={logo} alt="guitarist, mountain bike, golfer logo" />
+            <img className="logo" src={logo} alt="guitarist, mountain bike, golfer logo" />
             
         </div>
     )

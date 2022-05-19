@@ -1,10 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  
+  
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -17,6 +21,7 @@ code {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  
 }
 .inner-app {
   margin-left: 150px;
@@ -24,17 +29,31 @@ code {
   margin-bottom: 150px;
 }
 
-.navbar {
+.bio {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: black;
-  height: 45px;
-  align-items: center;
+  flex-wrap: nowrap;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.navbar-icon {
-  padding-left: 15px;
-  color: white;
+
+.bio-image {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.bio-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
 }
 
 .bio-detail {
@@ -43,20 +62,77 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+.bio-part {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-content: center;
+  align-items: center;
+}
+
+.work-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.line {
+  height: 3px;
+  background-color: black;
+}
+.bio-container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 h5 {
   padding-right: 10px;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 45px;
+  border-radius: 50px;
+  align-items: center;
+}
+.nav-internal-links {
+  display: flex;
+  padding-left: 45px;
+}
+
+.nav-external-links {
+  display: flex;
+  flex-direction: row;
+  padding-right: 45px;
+}
+
+.navbar-icon {
+  padding-left: 15px;
+  color: white;
+}
+
 .header {
   padding-top: 35px;
   height: 285px;
 }
 
-img {
+.logo {
   max-height: 250px;
-}
-
-.bio-container{
-  max-width: 65%;
 }
 
 .links {
@@ -102,4 +178,13 @@ img {
   align-items: center;
   align-content: center;
   flex-wrap: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.github-logo {
+  max-height: 35px;
 }

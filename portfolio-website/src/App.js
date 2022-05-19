@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
+// import LandingPage from './components/LandingPage';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -17,8 +17,8 @@ function App() {
       <Router>
         <Navbar />
           <Routes>
-            <Route path="/" element={ <LandingPage /> }/>
-            <Route path="/bio" element={ <Bio /> }/>
+            {/* <Route path="/" element={ <LandingPage /> }/> */}
+            <Route path="/" element={ <Bio /> }/>
             <Route path="/projects" element={ <Projects /> }/> 
             <Route path="/blogs" element={ <Blogs /> }/> 
             <Route path="/contact" element={ <Contact /> }/>  

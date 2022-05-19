@@ -1,4 +1,7 @@
 import React from "react";
+import gitHub from "../gitHub.png"
+import linkedIn from "../linkedIn2.png"
+import dev from "../dev.png"
 
 export default function Contact() {
     return (
@@ -19,13 +22,19 @@ export default function Contact() {
                 </span>
             </div>
             <div className="bio-detail">
-                <a className="links" href="https://www.linkedin.com/in/slj2222/">LinkedIn</a>
+                <a className="links" href="https://www.linkedin.com/in/slj2222/">
+                <img className="github-logo" src={linkedIn} alt="linkedIn logo"></img>
+                </a>
             </div>
             <div className="bio-detail">
-                <a className="links" href="https://github.com/slj2222">GitHub</a>
+                <a className="links" href="https://github.com/slj2222">
+                    <img className="github-logo" src={gitHub} alt="gitHub logo"></img>
+                </a>
             </div>
             <div className="bio-detail">
-                <a className="links" href="https://dev.to/slj2222">dev.to</a>
+                <a className="links" href="https://dev.to/slj2222">
+                <img className="github-logo" src={dev} alt="dev.to logo"></img>
+                </a>
             </div>
             </div>
         </div>
