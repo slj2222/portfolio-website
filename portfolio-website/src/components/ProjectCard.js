@@ -1,4 +1,5 @@
 import React from "react";
+import gitHub from"../gitHub.png"
 
 export default function ProjectCard({ project }) {
 
@@ -19,8 +20,13 @@ export default function ProjectCard({ project }) {
                     </h4>
                 </div>
                 <div>
+                    <p>
+                        {project.description}
+                    </p>
+                </div>
+                <div>
                     <a href={project.git_link}>
-                        <h5>gitHub</h5>
+                        <img className="github-logo" src={gitHub} alt="gitHub logo"></img>
                     </a>
                 </div>
             </div>
